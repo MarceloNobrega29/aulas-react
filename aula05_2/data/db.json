@@ -1,19 +1,28 @@
 {
-    "alunos": [
-        {
-            "id": 1,
-            "nome": "Marcelo",
-            "email": "mf@gmail.com"
-        },
-        {
-            "id": 2,
-            "nome": "João",
-            "email": "joao@gmail.com"
-        },
-        {
-            "id": 3,
-            "nome": "jose",
-            "email": "jose@gmail.com"
-        }
-    ]
+  "alunos": [
+    {
+      "id": "1",
+      "nome": "Marcelo",
+      "email": "mf@gmail.com",
+      "curso": "SPI"
+    },
+    {
+      "id": "2",
+      "nome": "João",
+      "email": "joao@gmail.com",
+      "curso": "SPI"
+    },
+    {
+      "id": "3",
+      "nome": "jose",
+      "email": "jose@gmail.com",
+      "curso": "SPI"
+    },
+    {
+      "id": 1,
+      "nome": "Teste",
+      "email": "testee@gmail.com",
+      "curso": "SPI"
+    }
+  ]
 }
