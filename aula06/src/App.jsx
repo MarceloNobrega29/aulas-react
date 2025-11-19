@@ -1,11 +1,28 @@
 import React from 'react'
-import DpoLgd from './components/DpoLgd'
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Inicial from './pages/Inicial'
+import Contato from './pages/Contato'
+import Faculdade from './pages/Faculdade'
+import Noticias from './pages/Noticias'
+import DpoLgpd from './pages/DpoLgpd'
+import NavBar from './components/NavBar'
 
 const App = () => {
   return (
-    <div>
-      <DpoLgd />
-    </div>
+    
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+         <Route path="/" element={<Inicial />} />
+         <Route path="/contato" element={<Contato />} />
+         <Route path="/a-faculdade" element={<Faculdade />} />
+         <Route path="/noticias" element={<Noticias />} />
+         <Route path="/dpo-lgpd" element={<DpoLgpd />}/>
+      </Routes>
+    
+    </BrowserRouter>
+    
   )
 }
 

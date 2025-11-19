@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
-const DpoLgd = () => {
+const DpoLgpd = () => {
 
     const [dpo, setDpo] = useState([])
 
@@ -24,4 +24,4 @@ return (
 
 }
 
-export default DpoLgd
+export default DpoLgpd
